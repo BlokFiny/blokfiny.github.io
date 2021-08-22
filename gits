@@ -1,0 +1,35 @@
+#!/bin/bash
+
+clear 
+
+# These are ansi color codes
+lg="\e[92m"
+wh="\e[97m"
+bl="\e[96m"
+
+echo "" 
+echo ""
+echo ""
+echo " Repo Location "
+echo ""
+echo -e "${bl} https://github.com/BlokFiny/blokfiny.github.io"${wh}
+echo ""
+echo ""
+echo "  Commands issued "
+echo "  ----------------"
+echo -e "${lg}          $ git add . = ${wh} This is addding all the files which has changed"
+echo -e "${lg}          $ git commit -m 'msg' = ${wh} This is a commit message" 
+echo -e "${lg}          $ git push -u origin master = ${wh} Command to push it to your repository "
+echo ""
+echo "" 
+echo "***"
+echo ""
+echo ""
+read -n 1 -r -s -p $'Press enter to continue issuing comands automaticalluy...\n'
+git add .
+git commit -m "."
+git push -u origin main 
+echo ""
+echo " Finished :) "
+echo "" 
+echo ""
