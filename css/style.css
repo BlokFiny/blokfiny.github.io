@@ -1,3 +1,15 @@
+{
+    box-sizing: border-box;
+}
+  
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+     }
+ 
+
+
  /* Style the video: 100% width and height to cover the entire window */
  /* #myVideo {
     position: fixed;
@@ -12,9 +24,10 @@
     position: fixed;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
+    color: #ffffff;
     width: 100%;
     padding: 20px;
+    text-align: center;
   }
   
   /* Style the button used to pause/play the video */
@@ -30,7 +43,7 @@
   
   #myBtn:hover {
     background: #ddd;
-    color: black;
+    color: rgb(172, 0, 129);
   } 
 
   video {
