@@ -23,13 +23,13 @@ body {
   .content {
     position: fixed;
     bottom: 0;
+    text-align: center;
     background: rgba(0, 0, 0, 0.5);
     color: #ffffff;
     width: 100%;
     padding: 20px;
-    text-align: center;
   }
-  
+
   /* Style the button used to pause/play the video */
   #myBtn {
     width: 200px;
