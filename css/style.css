@@ -131,9 +131,9 @@ h1 {
 
 /* This is for forcing 100% */
 
-video {
+/* video {
     /* override other styles to make responsive */
     width: 100%    !important;
     height: auto   !important;
-  }
+  } */
 
